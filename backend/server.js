@@ -4,6 +4,4 @@ const app=require("./src/app")
 
 connecttoDB();
 
-app.listen(3000,()=>{
-    console.log("Server is running on port")
-})
+module.exports=app
